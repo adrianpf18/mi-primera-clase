@@ -43,4 +43,14 @@ public class DestinoTuristico {
             esPlaya = false;
         }
     }
+    
+    public void imprimirEstado() {
+        System.out.println("Nombre del destino turístico: " + nombreDestino + " | " + "Coste para ir a destino turístico: " 
+        + costoPromedio + "€" + " | " + "Destino de playa " + (esPlaya ? "Sí" : "No"));
+    }
+    
+    public String obtenerEstado() {
+    return "Nombre del destino turístico: " + nombreDestino + " |" + "Coste para ir a destino turístico: " 
+        + costoPromedio + "€" + " |" + "Destino de playa " + (esPlaya ? "Sí" : "No");
+}
 }
