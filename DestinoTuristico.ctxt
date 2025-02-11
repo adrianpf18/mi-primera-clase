@@ -2,6 +2,8 @@
 comment0.target=DestinoTuristico
 comment1.params=nombre\ costoParaIr
 comment1.target=DestinoTuristico(java.lang.String,\ int)
+comment10.params=cantidad
+comment10.target=void\ modificarCostoPromedio(int)
 comment2.params=
 comment2.target=java.lang.String\ getNombreDestino()
 comment3.params=
@@ -18,4 +20,4 @@ comment8.params=
 comment8.target=void\ imprimirEstado()
 comment9.params=
 comment9.target=java.lang.String\ obtenerEstado()
-numComments=10
+numComments=11
